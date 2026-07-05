@@ -1,0 +1,11 @@
+Sube aquí el modelo 3D real del edificio de la facultad como:
+
+    edificio.glb
+
+Requisitos:
+- Formato .glb (glTF binario), idealmente < 5-8 MB para que cargue rápido.
+- Centrado en el origen (0,0,0) y con una escala razonable (aprox. 1-3 unidades de alto).
+
+En cuanto el archivo exista en esta carpeta, el hero de la página de Inicio lo
+carga automáticamente en vez del placeholder geométrico — no hace falta tocar
+ningún código (ver src/components/hero/EdificioCanvas.jsx).
